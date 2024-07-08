@@ -1,0 +1,553 @@
+:root::-webkit-scrollbar{
+    width: 6px;
+}
+
+:root::-webkit-scrollbar-track{
+    background-color: #1A1E23;
+}
+
+:root::-webkit-scrollbar-thumb{
+    background-color: rgba(103, 103, 103, 0.8);
+    border-radius: 18px;
+}
+
+.headerElement{
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+main section > p, main section > code, main section > li{
+    display: none;
+}
+
+.rounded{
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.imgMapaContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.imgMapaContainer img{
+    height: 34em;
+}
+
+.bodyPage{
+    padding: 0;
+    margin: 0;
+    font-family: "Playwrite DE Grund", cursive;
+    display: flex;
+}
+
+.headerMainBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxFalseHeader{
+    position: relative; 
+    width: 15%;
+}
+
+.headerPage{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 15%;
+    height: 100vh;
+    background-color: #1A1E23;
+    overflow: auto;
+}
+
+.headerPage nav{
+    width: 100%;
+}
+
+
+.headerPage::-webkit-scrollbar{
+    width: 6px;
+}
+
+.headerPage::-webkit-scrollbar-thumb{
+    background-color: rgba(103, 103, 103, 0.5);
+    border-radius: 10px;
+}
+
+.titleHeader{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleHeader h1{
+    color: white;
+}
+
+.listHeader{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    list-style-type: none;
+}
+
+.listHeader li{
+    height: 6em;
+    line-height: 6em;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.listHeader li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.listHeader li{
+    background-color: white;
+
+}
+
+.listHeader li:hover{
+    background-color: #ebebeb;
+    border-bottom: 1px solid black;
+}
+
+.mainPage{
+    background-color: #1A1E23;
+    width: 85%;
+    color: white;
+}
+
+.boxTitle{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxChildText h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.boxChildText p{
+    text-align: justify;
+}
+
+.boxHr{
+    padding: 0 20px 0 20px;
+}
+
+.boxHr hr{
+    width: 100%;
+    border-color: white;
+}
+
+.boxImageCharacters{
+    display: flex;
+    width: 11em;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.boxImageCharacters div{
+    background-color: #1b1b20;
+    width: 8em;
+    height: 10em;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.boxImageCharacters:hover{
+    background-color: white;
+    border-radius: 15px;
+    scale: 1.1;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.boxImageCharacters div img{
+    width: 5em;
+    height: 5em;
+    border-radius: 100%;
+    filter: drop-shadow(
+        0 0 10px rgba(0, 0, 0, .8)
+    );
+}
+
+.boxImageCharacters div div{
+    padding: 0;
+}
+
+.boxImageCharacters div div h3{
+    text-align: center;
+    font-size: 16px;
+}
+
+.habilityTable{
+    display: flex;
+    justify-content: space-around;
+}
+
+.habilityTable > div{
+    height: min-content;
+    border: 2px solid black;
+}
+
+.habilityTable div div{
+    display: flex;
+    max-width: 32em;
+    background-color: #1B1B20;
+}
+
+.eachElementOfHabilityTable:hover{
+    border: 3px solid black;
+    scale: 1.05;
+    transition: 0.3s;
+}
+
+.habilityTable div div div img{
+    width: 5em;
+    height: 5em;
+}
+
+.imgBoxOfHabilityTable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white!important;
+    padding: 0 10px 0 10px;
+}
+
+.textOfHabilityTable{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 0 20px;
+}
+
+.textOfHabilityTable p{
+    text-align: justify;
+    margin: 0;
+}
+
+.textOfHabilityTable p:last-child{
+    margin-bottom: 20px;
+}
+
+.wrapperArt{
+    display: flex; 
+    max-width: 24em; 
+    overflow-x: auto;
+}
+
+.wrapperArt::-webkit-scrollbar{
+    width: 6px;
+    height: 10px;
+}
+
+.wrapperArt::-webkit-scrollbar-track{
+    background-color: #1A1E23;
+}
+
+.wrapperArt::-webkit-scrollbar-thumb{
+    background-color: rgba(103, 103, 103, 0.8);
+    border-radius: 18px;
+}
+
+.wrapperArt > div{
+    border: 2px solid white;
+}
+
+.wrapperArt > div div:first-child{
+    border-bottom: 2px solid white;
+}
+
+.wrapperArt > div:not(:first-child){
+    border-left: 0;
+}
+
+.boxStringerArt{
+    background-color: #1B1B20;
+    min-width: 99%;
+}
+
+.boxStringerArt div:first-child{
+    height: 6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxStringerArt div:last-child{
+    height: 14em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px 0 20px;
+
+}
+
+.boxStringerArt div:last-child h4{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.boxStringerArt div:last-child p, .boxStringerArt div:last-child ul{
+    font-size: 12px;
+    margin-top: 0;
+}
+
+@media (320px <= width <= 425px){
+    .boxFalseHeaderCelphone{
+        height: 168px;
+    }
+}
+
+@media (426px <= width <= 597px){
+    .boxFalseHeaderCelphone{
+        height: 112px;
+    }
+}
+
+@media (598px <= width){
+    .boxFalseHeaderCelphone{
+        height: 68px;
+    }
+}
+
+@media (320px <= width <= 558px){
+    .boxFalseHeader {
+        display: none;
+    }
+
+    .boxTitle img{
+        height: 20vh;
+        width: 45vh;
+    }
+
+    .boxFalseHeaderCelphone
+
+    .headerCelphone{
+        width: 100%;
+        height: 8em;
+        position: fixed;
+        z-index: 1;
+    }
+
+    .headerCelphone nav, .headerCelphone nav ul{
+        height: 100%;
+    }
+
+    .headerCelphone nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1em;
+        padding: 20px;
+        margin: 0;
+        background-color: black;
+        list-style-type: none;
+    }
+
+    .headerCelphone nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .mainPage{
+        width: 100%;
+    }
+
+    .boxText img{
+        width: 100%;
+        height: 12em;
+    }
+
+    .boxHr{
+        margin-top: 20px;
+    }
+    
+    .boxHr hr{
+        border-color: white;
+    }
+
+    .boxImageCharacters{
+        width: auto;
+    }
+
+    .boxImageCharacters div{
+        width: 4em;
+    }
+
+    .boxImageCharacters div div h3{
+        font-size: 12px;
+    }
+
+    .imgMapaContainer{
+        width: 100%; 
+        display: flex; 
+        justify-content: center;
+    }
+
+    .imgMapaContainer img{
+        width: 95%;
+        height: 25em;
+    }
+
+    .habilityTable{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .habilityTable > div:last-child{
+        margin-top: 20px;
+    }
+
+    .textOfHabilityTable h3{
+        text-align: center;
+    }
+
+    .eachElementOfHabilityTable:hover{
+        border: 0;
+        scale: 1;
+        transition: 0.3s;
+    }
+
+    .wrapperArt::-webkit-scrollbar{
+        width: 6px;
+        height: 6px;
+    }
+}
+
+@media (500px <= width <= 770px){
+
+    .boxFalseHeader {
+        display: none;
+    }
+
+    .headerCelphone{
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+    }
+
+    .headerCelphone nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1em;
+        padding: 20px;
+        margin: 0;
+        background-color: black;
+        list-style-type: none;
+    }
+
+    .headerCelphone nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .mainPage{
+        width: 100%;
+    }
+
+    .boxTitle img{
+        height: 20vh;
+        width: 55vh;
+    }
+
+    .imgHome{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .imgHome img{
+        width: 50%;
+        height: 12em;
+    }
+    
+    .boxChildText p{
+        text-align: center;
+    }
+
+    .habilityTable{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .habilityTable div:last-child{
+        margin-top: 20px;
+    }
+
+    .textOfHabilityTable h3{
+        text-align: center;
+    }
+
+    .imgMapaContainer{
+        width: 90%; 
+    }
+}
+
+@media (width >= 770px){
+
+    .boxFalseHeaderCelphone{
+        display: none;
+    }	
+
+    .headerCelphone{
+        display: none;
+    }
+
+    .headerMainBox{
+        flex-direction: row;
+    }
+
+    .textMainPage{
+        padding: 0 20px 20px 20px;
+        margin: 30px 0 0 0;
+        text-align: justify;
+    }
+
+    .boxText{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .boxChildText{
+        max-width: 40%;
+    }
+
+    .imgHome{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .imgHome img{
+        width: 100%;
+        height: 22em;
+    }
+}
